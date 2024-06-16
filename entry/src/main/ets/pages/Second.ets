@@ -3,17 +3,17 @@ import { router } from '@kit.ArkUI';
 @Entry
 @Component
 struct Index {
-  @State message: string = 'Jason Test';
+  @State message: string = 'This is Second';
 
   build() {
     Row() {
       Column() {
         Text(this.message)
           .id('HelloWorld')
-          .fontSize(50)
+          .fontSize(30)
           .fontWeight(FontWeight.Bold)
         Button() {
-          Text('Next')
+          Text('Back')
             .fontSize(30)
             .fontWeight(FontWeight.Bold)
         }
@@ -25,9 +25,7 @@ struct Index {
         .width('40%')
         .height('5%')
         .onClick(() => {
-          router.pushUrl({ url:'pages/Second' }).then(() => {
-            console.log('router pushUrl pages/Second');
-          })
+          router.back();
         })
       }
       .width('100%')

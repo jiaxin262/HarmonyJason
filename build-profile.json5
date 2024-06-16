@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/jiaxin/.ohos/config/default_HarmonyJason_eYzzL_tS9SEPWGguMFgBDaBOzEEpAVuSncLEhQYR0-Q=.cer",
+          "storePassword": "0000001B44E233F08E23F337BAEC0A0EE5B88EEF5DA507D74D0CB485A702624F2A0D5A022037E883CBBD39",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B9666B6B5EE95F6F3823F86A59E97D91793A86ABB3B46F59D29DCAC1CCE26E310F4BE6ED4847E94",
+          "profile": "/Users/jiaxin/.ohos/config/default_HarmonyJason_eYzzL_tS9SEPWGguMFgBDaBOzEEpAVuSncLEhQYR0-Q=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/jiaxin/.ohos/config/default_HarmonyJason_eYzzL_tS9SEPWGguMFgBDaBOzEEpAVuSncLEhQYR0-Q=.p12"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",
