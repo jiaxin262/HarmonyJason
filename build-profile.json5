@@ -6,9 +6,9 @@
         "type": "HarmonyOS",
         "material": {
           "certpath": "/Users/jiaxin/.ohos/config/default_HarmonyJason_eYzzL_tS9SEPWGguMFgBDaBOzEEpAVuSncLEhQYR0-Q=.cer",
-          "storePassword": "0000001B44E233F08E23F337BAEC0A0EE5B88EEF5DA507D74D0CB485A702624F2A0D5A022037E883CBBD39",
+          "storePassword": "0000001B5B30BF6D0E3A15C1FE7AF6D5982F26B79BF3085D4A454B87D232EBD4823ED571354CAB6EBBA5BC",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001B9666B6B5EE95F6F3823F86A59E97D91793A86ABB3B46F59D29DCAC1CCE26E310F4BE6ED4847E94",
+          "keyPassword": "0000001BF5611E88DF22069DB9A2B5A2B8920301B261255F0C9C3D6FA75AD08076CED4DBA2DF410F74C33A",
           "profile": "/Users/jiaxin/.ohos/config/default_HarmonyJason_eYzzL_tS9SEPWGguMFgBDaBOzEEpAVuSncLEhQYR0-Q=.p7b",
           "signAlg": "SHA256withECDSA",
           "storeFile": "/Users/jiaxin/.ohos/config/default_HarmonyJason_eYzzL_tS9SEPWGguMFgBDaBOzEEpAVuSncLEhQYR0-Q=.p12"
